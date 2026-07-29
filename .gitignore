@@ -10,7 +10,6 @@
 build/
 install/
 log/
-/src/
 
 # Python
 *.pyc
@@ -26,3 +25,6 @@ capture/
 
 # Node.js
 node_modules/
+
+# Autoware Index
+repositories/autoware-index.repos
