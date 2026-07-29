@@ -27,6 +27,7 @@ fi
 sudo pip3 install xmlschema==3.4.5
 
 sudo -E apt-get -y update
+sudo -E apt-get -y install python3.10-venv
 
 # shellcheck disable=SC2012
 ROS_DISTRO=$(ls -1 /opt/ros | head -1)
