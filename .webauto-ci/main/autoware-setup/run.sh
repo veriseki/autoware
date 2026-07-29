@@ -1,4 +1,6 @@
 #!/bin/bash -e
+sudo apt-get update
+sudo apt-get install -y python3.10-venv
 
 ansible_args=()
 ansible_args+=("--extra-vars" "data_dir=$HOME/autoware_data/ml_models")
